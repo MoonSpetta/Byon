@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="tvAppName" />
+    <item type="id" name="ivLogo" />
+    <item type="id" name="tvTagline" />
+    <item type="id" name="progressBar" />
+    <item type="id" name="tvVersion" />
+    <item type="id" name="animationView" />
+    <item type="id" name="btnLorem" />
+    <item type="id" name="tvGreeting" />
+    <item type="id" name="tvUserName" />
+    <item type="id" name="icCart" />
+    <item type="id" name="badgeCart" />
+    <item type="id" name="etSearch" />
+    <item type="id" name="ivBanner" />
+    <item type="id" name="cardMyOrder" />
+    <item type="id" name="cardCart" />
+    <item type="id" name="btnLogout" />
+    <item type="id" name="rbFurniture" />
+</resources>

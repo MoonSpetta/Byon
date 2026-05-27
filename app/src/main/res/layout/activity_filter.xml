@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A1A2E"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/filter_produk"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- KATEGORI -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kategorii"
+                android:textColor="#FFD700"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <RadioGroup
+                android:id="@+id/rgKategori"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp">
+
+                <RadioButton
+                    android:id="@+id/rbSemua"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/semua"
+                    android:textColor="#FFFFFF"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:id="@+id/rbFashion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fashion_filter"
+                    android:textColor="#FFFFFF" />
+
+                <RadioButton
+                    android:id="@+id/rbElektronik"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/elektronik_filter"
+                    android:textColor="#FFFFFF" />
+
+                <RadioButton
+                    android:id="@+id/rbFurniture"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/furniture_filter"
+                    android:textColor="#FFFFFF" />
+
+                <RadioButton
+                    android:id="@+id/rbKecantikan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kecantikan_filter"
+                    android:textColor="#FFFFFF" />
+            </RadioGroup>
+
+            <!-- RENTANG HARGA -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rentang_hargaa"
+                android:textColor="#FFD700"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="24dp">
+
+                <EditText
+                    android:id="@+id/etHargaMin"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:autofillHints=""
+                    android:hint="@string/min"
+                    android:inputType="number"
+                    android:background="@drawable/bg_search_bar"
+                    android:paddingHorizontal="12dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#B8B8D0" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p"
+                    android:textColor="#FFFFFF"
+                    android:paddingHorizontal="8dp" />
+
+                <EditText
+                    android:id="@+id/etHargaMax"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:autofillHints=""
+                    android:hint="@string/max"
+                    android:inputType="number"
+                    android:background="@drawable/bg_search_bar"
+                    android:paddingHorizontal="12dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#B8B8D0" />
+            </LinearLayout>
+
+            <!-- RATING -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rating_minimal"
+                android:textColor="#FFD700"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:stepSize="0.5"
+                android:rating="0"
+                android:isIndicator="false"
+                android:layout_marginBottom="24dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Tombol Aksi -->
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnReset"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:text="@string/reset"
+            android:backgroundTint="#2A2A44"
+            android:textColor="#FFD700"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnApply"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="@string/terapkan"
+            android:backgroundTint="#FFD700"
+            android:textColor="#1A1A2E"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

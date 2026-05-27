@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A1A2E"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Panel"
+        android:textColor="#FFD700"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="48dp"/>
+
+    <Button
+        android:id="@+id/btnAddProduct"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Tambah Produk"
+        android:backgroundTint="#2A2A44"
+        android:textColor="#FFD700"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnManageProducts"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Kelola Produk (Edit/Hapus)"
+        android:backgroundTint="#2A2A44"
+        android:textColor="#FFD700"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnLogoutAdminHome"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Logout"
+        android:backgroundTint="#444"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

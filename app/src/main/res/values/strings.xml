@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Byon</string>
+
+    <!-- HomeActivity strings -->
+    <string name="welcome_message">Welcome, %s!</string>
+    <string name="menu_account">My Account</string>
+    <string name="menu_inventory">Inventory</string>
+    <string name="menu_search">Search Mechanic</string>
+    <string name="menu_request">Request</string>
+    <string name="menu_lorem">Lorem Ipsum</string>
+    <string name="menu_contact">Contact Us</string>
+    <string name="unknown">Unknown</string>
+    <string name="clicked">clicked</string>
+
+    <!-- Dialog strings -->
+    <string name="logout_title">Logout</string>
+    <string name="logout_message">Are you sure you want to logout?</string>
+    <string name="logout_success">Logout successful</string>
+    <string name="exit_title">Exit Application</string>
+    <string name="exit_message">Are you sure you want to exit the application?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- LoginActivity strings -->
+    <string name="login">Login</string>
+    <string name="login_welcome">Please login to your account</string>
+    <string name="email_hint">Enter email</string>
+    <string name="password_hint">Enter password</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="register_link">Don\'t have an account? Register here</string>
+    <string name="fill_email_password">Fill email and password</string>
+    <string name="invalid_email_format">Invalid email format</string>
+    <string name="wrong_credentials">Wrong email or password</string>
+
+    <!-- RegisterActivity strings -->
+    <string name="register">Register</string>
+    <string name="register_welcome">Fill in your data to create account</string>
+    <string name="username_hint">Enter username</string>
+    <string name="email_reg_hint">Enter email</string>
+    <string name="password_reg_hint">Enter password</string>
+    <string name="confirm_password_hint">Re-enter password</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="login_link">Already have an account? Login here</string>
+    <string name="fill_all_fields">Fill all fields</string>
+    <string name="password_not_match">Password doesn\'t match</string>
+    <string name="registration_success">Registration successful. Please login.</string>
+    <string name="password_min_length">* Password must be at least 6 characters</string>
+    <string name="welcome_user">Welcome, User!</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="todo">TODO</string>
+    <string name="my_account">My Account</string>
+    <string name="tod02">TOD02</string>
+    <string name="inventory">Inventory</string>
+    <string name="todo3">TODO3</string>
+    <string name="search_mechanic">Search Mechanic</string>
+    <string name="todo4">TODO4</string>
+    <string name="request">Request</string>
+    <string name="todo5">TODO5</string>
+    <string name="transaksi">Transaksi</string>
+    <string name="todo6">TODO6</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="logout">Logout</string>
+    <string name="_2024_myapp_v1_0">© 2024 MyApp v1.0</string>
+    <string name="todoo">TODOO</string>
+    <string name="login1">Login</string>
+    <string name="silakan_masuk_ke_akun_anda">Silakan masuk ke akun Anda</string>
+    <string name="email">Email</string>
+    <string name="masukkan_email">Masukkan email</string>
+    <string name="password">Password</string>
+    <string name="masukkan_password">Masukkan password</string>
+    <string name="login2">LOGIN</string>
+    <string name="belum_punya_akun_daftar_di_sini">Belum punya akun? Daftar di sini</string>
+    <string name="menu_transaction">Transaksi</string>
+
+    <!-- TransaksiActivity strings -->
+    <string name="transaksi1">Transaksi</string>
+    <string name="hitung_total">Hitung Total</string>
+    <string name="simpan_transaksi">Simpan Transaksi</string>
+    <string name="Catalog">Catalog</string>
+    <string name="search_products">Search Products</string>
+    <string name="shopping_cart">Shopping Cart</string>
+    <string name="kembali">Kembali</string>
+    <string name="fashion">Fashion</string>
+    <string name="halo_selamat_datang">Halo, Selamat Datang!</string>
+    <string name="user">User</string>
+    <string name="keranjang">Keranjang</string>
+    <string name="cari">Cari</string>
+    <string name="cari_barang_favoritmu">Cari barang favoritmu</string>
+    <string name="filter">Filter</string>
+    <string name="up_to_50_off">✨ UP TO 50% OFF</string>
+    <string name="flash_sale_nhari_ini">Flash Sale\nHari Ini!</string>
+    <string name="berakhir_dalam_sesaat_lagi">Berakhir dalam sesaat lagi</string>
+    <string name="beli">Beli</string>
+    <string name="kategori">Kategori</string>
+    <string name="fashionn">Fashion</string>
+    <string name="electronics">Electronics</string>
+    <string name="furniture">Furniture</string>
+    <string name="beauty">Beauty</string>
+    <string name="aksi_cepat">Aksi Cepat</string>
+    <string name="pesanan_saya">Pesanan Saya</string>
+    <string name="keranjangg">Keranjang</string>
+    <string name="produk_populer">Produk Populer</string>
+    <string name="nama_produk">Nama Produk</string>
+    <string name="rp_150_000">Rp 150.000</string>
+    <string name="nama_produkk">Nama Produk</string>
+    <string name="rp_250_000">Rp 250.000</string>
+    <string name="_2024_myapp_v1_00">© 2024 MyApp v1.0</string>
+    <string name="keranjanggg">Keranjang</string>
+    <string name="headset">Headset</string>
+    <string name="logoutt">LOGOUT</string>
+    <string name="baju">baju</string>
+    <string name="bucket">bucket</string>
+    <string name="rentang_harga">Rentang Harga</string>
+    <string name="min">Min</string>
+    <string name="max">Max</string>
+    <string name="p">-</string>
+    <string name="rentang_hargaa">Rentang Harga</string>
+    <string name="semua">Semua</string>
+    <string name="kategorii">Kategori</string>
+    <string name="filter_produk">Filter Produk</string>
+    <string name="rating_minimal">Rating Minimal</string>
+    <string name="reset">Reset</string>
+    <string name="terapkan">Terapkan</string>
+    <string name="fashion_filter">Fashion</string>
+    <string name="elektronik_filter">Elektronik</string>
+    <string name="furniture_filter">Furniture</string>
+    <string name="kecantikan_filter">Kecantikan</string>
+
+    <!-- Array kategori untuk spinner -->
+    <string-array name="categories_array">
+        <item>Fashion</item>
+        <item>Electronics</item>
+        <item>Furniture</item>
+        <item>Beauty</item>
+    </string-array>
+
+    <!-- Array bank -->
+    <string-array name="bank_array">
+        <item>BCA</item>
+        <item>Mandiri</item>
+        <item>BNI</item>
+        <item>BRI</item>
+        <item>Permata</item>
+        <item>CIMB Niaga</item>
+    </string-array>
+
+    <string-array name="order_status_array">
+        <item>pending</item>
+        <item>processing</item>
+        <item>shipped</item>
+        <item>delivered</item>
+        <item>cancelled</item>
+    </string-array>
+</resources>

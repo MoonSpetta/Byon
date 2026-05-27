@@ -1,0 +1,15 @@
+<!-- res/drawable/ic_promo_overlay.xml (vector untuk overlay) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M12,2L15,8.5L22,9.5L17,14L18.5,21L12,17.5L5.5,21L7,14L2,9.5L9,8.5L12,2Z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,6L13.5,9.5L17.5,10L14.5,12.5L15.5,16.5L12,14.5L8.5,16.5L9.5,12.5L6.5,10L10.5,9.5Z" />
+</vector>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A1A2E"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#2A2A44"
+        app:titleTextColor="#FFFFFF"
+        app:title="Kelola Pesanan"
+        app:navigationIcon="@drawable/ic_arrow_back"
+        app:navigationContentDescription="Kembali" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvAdminOrders"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tvEmptyOrders"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Belum ada pesanan"
+        android:textColor="#B8B8D0"
+        android:visibility="gone" />
+
+</LinearLayout>

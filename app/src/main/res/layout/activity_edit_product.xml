@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A1A2E"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#2A2A44"
+        app:titleTextColor="#FFFFFF"
+        app:navigationIcon="@drawable/ic_arrow_back"
+        app:navigationContentDescription="Kembali" />
+
+    <EditText
+        android:id="@+id/etEditProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Produk"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B8B8D0"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/etEditProductPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Harga"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B8B8D0"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/etEditProductDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Deskripsi"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B8B8D0"
+        android:layout_marginTop="16dp" />
+
+    <Spinner
+        android:id="@+id/spinnerEditCategory"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_search_bar"
+        android:entries="@array/categories_array" />
+
+    <ImageView
+        android:id="@+id/ivEditProductImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="16dp"
+        android:background="#2A2A44" />
+
+    <Button
+        android:id="@+id/btnEditSelectImage"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Pilih Gambar Baru"
+        android:backgroundTint="#2A2A44"
+        android:textColor="#FFD700"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnUpdateProduct"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Update Produk"
+        android:backgroundTint="#FFD700"
+        android:textColor="#1A1A2E"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnCancelEdit"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Batal"
+        android:backgroundTint="#2A2A44"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
