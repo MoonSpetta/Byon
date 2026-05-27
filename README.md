@@ -1,3 +1,8 @@
+Berikut adalah deskripsi proyek yang bisa kamu gunakan di repository GitHub (README.md). Isinya mencakup fitur utama, teknologi yang digunakan, dan sedikit panduan.
+
+---
+
+```markdown
 # 🛍️ Byon – Aplikasi E-Commerce Mobile + Admin Panel
 
 **Byon** adalah aplikasi belanja online berbasis Android yang dibangun dengan **Java** (XML layout) dan backend **PHP (Native)** dengan database **MySQL**. Aplikasi ini memiliki dua antarmuka: **User** untuk pembeli dan **Admin** untuk pengelola produk & pesanan.
@@ -50,3 +55,75 @@
 ### 1. Clone Repository
 ```bash
 git clone https://github.com/username/byon-app.git
+```
+
+### 2. Setup Backend (Laragon)
+- Install Laragon dan pastikan Apache & MySQL berjalan.
+- Buat database baru dengan nama `byon_db`.
+- Import file SQL yang tersedia di folder `database/byon_db.sql`.
+- Letakkan folder `byon_api` di dalam `C:\laragon\www\`.
+- Sesuaikan `BASE_URL` di `RetrofitClient.java` dengan IP komputer atau `10.0.2.2` (untuk emulator).
+
+### 3. Jalankan Aplikasi Android
+- Buka proyek dengan Android Studio.
+- Sync Gradle dan Build.
+- Install ke HP/emulator.
+
+### 4. Login
+- **User**: registrasi terlebih dahulu.
+- **Admin**: klik logo atau nama aplikasi 5x pada splash screen, lalu login dengan `admin@gmail.com` / `admin123`.
+
+---
+
+## 📁 Struktur Proyek (Singkat)
+
+```
+byon-app/
+├── app/
+│   ├── src/main/java/com/example/uprak2/
+│   │   ├── activities/   (Login, Register, Home, Cart, Checkout, MyOrder, dll)
+│   │   ├── adapters/     (ProductAdapter, CartAdapter, OrderAdapter)
+│   │   ├── models/       (Product, CartItem, Order, ApiResponse, dll)
+│   │   ├── network/      (ApiService, RetrofitClient)
+│   │   └── utils/        (CartDatabaseHelper, UploadResponse)
+│   └── res/layout/       (Semua layout XML)
+├── backend/ (byon_api)
+│   ├── db_connection.php
+│   ├── get_products.php, search_products.php
+│   ├── add_product.php, update_product.php, delete_product.php
+│   ├── place_order.php, get_my_orders.php, get_all_orders.php
+│   ├── update_order_status.php
+│   └── uploads/ (folder untuk gambar produk)
+└── README.md
+```
+
+---
+
+## 📸 Screenshot (Contoh)
+
+> *Tambahkan beberapa screenshot hasil running di sini*
+
+| Halaman User | Halaman Admin |
+|--------------|----------------|
+| Home         | Dashboard      |
+| Keranjang    | Tambah Produk  |
+| Checkout     | Kelola Pesanan |
+
+---
+
+## 🙏 Catatan
+
+- Proyek ini dibuat untuk keperluan pembelajaran dan pengembangan.
+- Untuk lingkungan produksi, sebaiknya gunakan HTTPS dan sistem autentikasi yang lebih aman (token JWT, dll).
+- Fitur transfer bank hanya simulasi; tidak terhubung dengan payment gateway sesungguhnya.
+
+---
+
+## 📄 Lisensi
+
+[MIT](LICENSE) – bebas digunakan dan dikembangkan lebih lanjut.
+
+---
+
+**Dibuat dengan ❤️ untuk tugas akhir / portofolio**
+```
