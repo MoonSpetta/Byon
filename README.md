@@ -1,8 +1,3 @@
-Berikut adalah deskripsi proyek yang bisa kamu gunakan di repository GitHub (README.md). Isinya mencakup fitur utama, teknologi yang digunakan, dan sedikit panduan.
-
----
-
-```markdown
 # 🛍️ Byon – Aplikasi E-Commerce Mobile + Admin Panel
 
 **Byon** adalah aplikasi belanja online berbasis Android yang dibangun dengan **Java** (XML layout) dan backend **PHP (Native)** dengan database **MySQL**. Aplikasi ini memiliki dua antarmuka: **User** untuk pembeli dan **Admin** untuk pengelola produk & pesanan.
